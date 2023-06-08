@@ -1,1 +1,1 @@
-# news_site
+Django yordamida yasalgan
