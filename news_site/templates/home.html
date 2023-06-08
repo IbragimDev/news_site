@@ -1,0 +1,12 @@
+{% extends 'base.html' %} 
+{% block title %} Bosh sahifa {% endblock title %}
+
+{% block content %}
+<div class='jumbotron text-center'>
+    <h1 class='display-4'> Newspaper </h1>
+    <p class='lead'> Read </p>
+    <p class='lead'>
+        <a class='btn btn-primary btn-lg' href='{% url 'article_list' %}' role='button' > View all posts <a>
+    
+    </P>
+{% endblock content %}

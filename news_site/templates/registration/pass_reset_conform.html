@@ -1,0 +1,14 @@
+{% extends 'base.html' %} 
+
+{% block title %} 
+Write new password
+{% endblock title %}
+
+{% block content  %}
+    <h1> Write password </h1>
+<form method='post'> {% csrf_token %} 
+        {{ form.as_p }}
+<button type='submit' class='btn btn-success'> Change password </button>
+</form>
+
+{% endblock content  %}
